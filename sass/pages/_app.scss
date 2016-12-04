@@ -1,0 +1,64 @@
+/* -----------------------------------------------------------------------------
+// 3. MOBILE APP
+// ----------------------------------------------------------------------------- */
+
+/*  App Show Section */
+.app-show {
+	padding-bottom: 0;
+
+	.app-show-img {
+		text-align: center;
+	}
+
+	.app-show-feature {
+		margin: 50px 0 70px 0;
+	}
+
+	.app-show-feature i {
+		padding: 8px;
+		margin: 0 5px;
+		border-radius: 100%;
+		background-color: #7dbd22;
+		color: #fff;
+	}
+}
+
+/*  App Zoom Section */
+.app-zoom {
+	padding-bottom: 0;
+
+	.app-zoom-img {
+		text-align: right;
+	}
+
+	.app-zoom-feature {
+		margin: 25px 0 25px 0;
+	}
+
+	.app-zoom-feature i {
+		color: #7dbd22;
+		margin-right: 5px;
+		font-size: 16px;
+	}
+}
+
+/*  App Customize Section */
+.app-customize {
+	padding-bottom: 0;
+
+	h2 {
+		margin-bottom: 40px;
+	}
+
+	ul li p {
+		margin-left: 24px;
+	}
+
+	.app-customize-img {
+		text-align: center;
+	}
+}
+
+.app-customize-btn {
+	margin-top: 20px;
+}

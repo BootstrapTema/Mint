@@ -1,0 +1,31 @@
+/* -----------------------------------------------------------------------------
+// 5. TABLES
+// ----------------------------------------------------------------------------- */
+.table {
+	text-align: center;
+	color: #a3a2a2;
+
+	> thead > tr > th {
+		background-color: #7dbd22;
+		color: #fff;
+		font-weight: normal;
+		text-align: center;
+	}
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+	background-color: #f7f7f7;
+}
+
+.table-default > thead > tr > th {
+	background-color: #677999;
+}
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+	padding: 15px 0;
+}

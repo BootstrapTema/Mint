@@ -1,0 +1,161 @@
+/* -----------------------------------------------------------------------------
+// 10. TABS
+// ----------------------------------------------------------------------------- */
+
+/* style 1 */
+.nav-tabs {
+	border-color: #eee;
+
+	> li > a {
+		color: #a3a2a2;
+		border: 1px solid #eee;
+		border-right: none;
+		border-radius: 0;
+		margin-right: 0;
+	}
+
+	> li:last-child > a {
+		border-right: 1px solid #eee;
+	}
+
+	> li.active > a,
+	> li.active > a:focus,
+	> li.active > a:hover {
+		color: #484747;
+		border-top: 2px solid #7dbd22;
+	}
+
+	> li > a:hover {
+		background-color: #f7f7f7;
+	}
+}
+
+.tab-content {
+	margin-bottom: 15px;
+
+	> .tab-pane {
+		padding: 20px;
+		border: 1px solid #efefef;
+		border-top: 0;
+	}
+}
+
+/* style 2 */
+.nav-tabs.style2 {
+	> li > a {
+		background-color: #f7f7f7;
+		color: #a3a2a2;
+		border: 1px solid #eee;
+		border-right: none;
+		border-radius: 0;
+		margin-right: 0;
+	}
+
+	> li:last-child > a {
+		border-right: 1px solid #eee;
+	}
+
+	> li.active > a,
+	> li.active > a:focus,
+	> li.active > a:hover {
+		background-color: #fff;
+		color: #484747;
+		border-top: 1px solid #eee;
+		border-bottom-color: transparent;
+	}
+
+	> li > a:hover {
+		color: #484747;
+	}
+}
+
+/* style 3 */
+.nav-tabs.style3  {
+	width: 15%;
+	float: left;
+
+	> li {
+		float: left;
+		width: 100%;
+	}
+
+	> li > a {
+		background-color: #f7f7f7;
+		color: #a3a2a2;
+		border: 1px solid #eee;
+		border-radius: 0;
+		margin-right: 0;
+	}
+
+	> li.active > a,
+	> li.active > a:focus,
+	> li.active > a:hover {
+		background-color: #fff;
+		color: #484747;
+		border-top: 1px solid #eee;
+		border-bottom-color: #eee;
+		border-right: none;
+	}
+}
+
+.tab-content.style3  {
+	width: 85%;
+	float: left;
+
+	.tab-pane {
+		border-top: 1px solid #eee;
+		border-left: none;
+	}
+}
+
+/* style 4 */
+.nav-tabs.style4  {
+	width: 15%;
+	float: left;
+
+	> li {
+		float: left;
+		width: 100%;
+	}
+
+	> li > a {
+		background-color: #fff;
+		color: #a3a2a2;
+		border: 1px solid #eee;
+		border-radius: 0;
+		margin-right: 0;
+	}
+
+	> li.active > a,
+	> li.active > a:focus,
+	> li.active > a:hover {
+		background-color: #fff;
+		color: #484747;
+		border-top: 1px solid #eee;
+		border-left: 2px solid #7dbd22;
+		border-bottom-color: #eee;
+		border-right: none;
+	}
+}
+
+.tab-content.style4  {
+	width: 85%;
+	float: left;
+
+	.tab-pane {
+		border-top: 1px solid #eee;
+		border-left: none;
+	}
+}
+
+@media all and (max-width: 992px){
+    .nav-tabs.style3
+	.nav-tabs.style4  {
+		width: 25%;
+	}
+	
+	.tab-content.style3,
+	.tab-content.style4  {
+		width: 75%;
+	}
+}

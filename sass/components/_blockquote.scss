@@ -1,0 +1,36 @@
+/* -----------------------------------------------------------------------------
+// 12. BLOCKQUOTE
+// ----------------------------------------------------------------------------- */
+.blockquote {
+	border: 1px solid #eee;
+	margin-bottom: 10px;
+	color: #484747;
+	padding: 20px 25px;
+
+	blockquote {
+		padding: 0;
+		border: none;
+		margin: 0;
+		width: 92%;
+		margin-left: 3%;
+		float: left;
+	}
+
+	i {
+		display: inline-block;
+		float: left;
+		width: 5%;
+		font-size: 36px;
+		color: #eee;
+
+		-webkit-transform: rotate(180deg);
+		-moz-transform: rotate(180deg);
+		-ms-transform: rotate(180deg);
+		-o-transform: rotate(180deg);
+		transform: rotate(180deg);
+	}
+}
+
+.blockquote.style2 {
+	border-left: 2px solid #7dbd22;
+}

@@ -1,0 +1,90 @@
+/*
+* Template Name: Mint
+* Template URI: http://themeforest.net/zawia
+* Description: Mint is Multipurpose HTML Template.
+* Author: Zawia Studio
+* Author URI: http://themeforest.net/zawia
+* Version: 1.0
+*/
+
+/* Entypo Icons */
+@font-face {
+	font-family: 'entypo';
+	src:url('../../css/fonts/entypo.eot?-jvsiib');
+	src:url('../../css/fonts/entypo.eot?#iefix-jvsiib') format('embedded-opentype'),
+		url('../../css/fonts/entypo.ttf?-jvsiib') format('truetype'),
+		url('../../css/fonts/entypo.woff?-jvsiib') format('woff'),
+		url('../../css/fonts/entypo.svg?-jvsiib#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'entypo';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-check:before {
+	content: "\e67d";
+}
+
+body {
+	background-color: #1c2535;
+	font-family: 'Lato', Arial, sans-serif;
+	height: 100vh;
+}
+
+.container {
+	position: relative;
+	display: table;
+	width: 60%;
+	height: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.container .align {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.container i {
+	font-size: 140px;
+	color: #7dbd22;
+	margin-top: 150px;
+}
+
+.container h1 {
+	color: #dadada;
+	font-size: 50px;
+	margin: 0;
+}
+
+.container p {
+	color: #b8b8b8;
+	font-size: 16px;
+	margin: 15px 0 10px 0;
+	letter-spacing: 1px;
+}
+
+.container p + p {
+	margin: 0;
+}
+
+.container a {
+	color: #7dbd22;
+	text-decoration: none;
+}
+
+	.container a:hover {
+		text-decoration: underline;
+	}

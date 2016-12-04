@@ -1,0 +1,44 @@
+/* -----------------------------------------------------------------------------
+// 11. PAGINATION 
+// ----------------------------------------------------------------------------- */
+
+/* style 1 - default */
+.pagination {
+	> li > a {
+	    padding: 6px 12px;
+	    margin-left: -1px;
+	    margin-right: 8px;
+	    color: #a3a2a2;
+	    background-color: #fff;
+	    border: 1px solid #ddd;
+
+	    &:hover {
+			background-color: #f7f7f7;
+			color: #484747;
+		}
+	}
+
+	> li:first-child > a,
+	> li:last-child > a {
+		border-radius: 0;
+	}
+
+	> .active > a,
+	> .active > a:hover {
+		background-color: #7dbd22;
+		border-color: #7dbd22;
+	}
+}
+
+/* style 2 */
+.pagination.style2 .active a {
+	background-color: #fff;
+	border-color: #ddd;
+	border-top: 2px solid #7dbd22;
+	color: #484747;
+	-webkit-transform: translateY(-12px);
+	-moz-transform: translateY(-12px);
+	-ms-transform: translateY(-12px);
+	-o-transform: translateY(-12px);
+	transform: translateY(-12px);
+}

@@ -1,0 +1,138 @@
+/* -----------------------------------------------------------------------------
+// 1. PRODUCT LAUNCH
+// ----------------------------------------------------------------------------- */
+
+/*  Splash Intro */
+.product-launch-slider-meta {
+	font-family: 'Lato', sans-serif;
+}
+
+.tparrows {
+	opacity: 1 !important;
+	visibility: visible !important;
+	background-color: #fff;
+	width: 30px;
+	height: 30px;
+
+	&:before {
+	    font-family: "entypo";
+		color: #d0d0d0;
+		font-size: 24px;
+		line-height: 30px;
+	}
+
+	&.tp-leftarrow:before {
+		content: "\e622";
+	}
+
+	&.tp-rightarrow:before {
+		content: "\e623";
+	}
+
+	&:hover {
+		background-color: #fff;
+
+		&:before {
+			color: #7dbd22;
+		}
+	}
+}
+
+.tp-bullet {
+	width: 50px;
+    height: 6px;
+    border-radius: 0;
+    background-color: #edebeb;
+	opacity: .6;
+
+	&:hover {
+		background-color: #fff;
+	}
+}
+
+.product-launch-slider-meta {
+	h2 {
+		margin-bottom: 15px;
+		font-size: 30px;
+		font-weight: 600;
+		color: #fff;
+	}
+
+	p {
+		font-size: 16px;
+		color: #fff;
+	}
+}
+
+.splash {
+	height: 600px;
+	height: 100vh;
+	text-align: center;
+
+	/* change the url to your splash backgroud image */
+	background: #7dba28 url() no-repeat center center fixed;
+	-webkit-background-size: cover;
+     -moz-background-size: cover;
+      -ms-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+
+    .splash-intro h1 {
+		line-height: 600px;
+		color: #fff;
+		font-size: 48px;
+		font-weight: bold;
+	}
+}
+
+.box-featured {
+	margin-top: -100px;
+    padding-top: 70px;
+
+    .featured-logo {
+		height: 120px;
+	}
+
+	.featured-logo a,
+	h4 {
+		line-height: 120px;
+	}
+}
+
+/*  embed Video / Audio */
+.embed-container { 
+	position: relative; 
+	padding-bottom: 56.25%; 
+	height: 0; 
+	overflow: hidden; 
+	max-width: 100%; 
+
+	iframe,
+	object,
+	embed { 
+		position: absolute; 
+		top: 0; 
+		left: 0; 
+		width: 100%; 
+		height: 100%; 
+	}
+}
+
+iframe {
+	width: 100%;
+	border: none;
+}
+
+.section-video p {
+	margin-bottom: -10px;
+}
+
+.clients-slider {
+	.client-logo {
+		margin: 3px;
+
+		img {
+			border: 2px solid #f7f7f7;
+		}
+	}
+}

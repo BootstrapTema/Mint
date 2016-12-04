@@ -1,0 +1,262 @@
+/* -----------------------------------------------------------------------------
+// 19. HOMEPAGE
+// ----------------------------------------------------------------------------- */
+
+/* Home Blog  */
+.home-blog .btn-masonry {
+	width: 90%;
+}
+
+/* Home Classic 01  */
+.showcase-item {
+	position: relative;
+	margin: 0 5px 15px 5px;
+
+	figcaption {
+		position: absolute;
+		bottom: -1px;
+		width: 100%;
+		padding: 5px 0;
+		background-color: #f7f7f7;
+		text-align: center;
+
+		h5 {
+			margin-bottom: 8px;
+		}
+	}
+
+	/* on hover */
+	&:hover figcaption {
+		background-color: #7dbd22;
+		color: #fff;
+
+		h5,
+		p {
+			color: #fff;
+		}
+	}
+
+	&:hover .showcase-item-hover {
+		opacity: 1;
+	}
+}
+
+/* eye & link icons */
+.showcase-item-hover {
+	position: absolute;
+	top: 40%;
+    left: 50%;
+	opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+
+	-webkit-transition: opacity .5s;
+	-moz-transition: opacity .5s;
+	-ms-transition: opacity .5s;
+	-o-transition: opacity .5s;
+	transition: opacity .5s;
+
+	a {
+		text-decoration: none;
+	}
+
+	i {
+		position: relative;
+		padding: 15px;
+		margin-right: -5px;
+		border-radius: 100%;
+		font-size: 18px;
+		color: #7dbd22;
+		background-color: #fff;
+
+		&:hover {
+			z-index: 2;
+		}
+	}
+
+	.different i {
+		margin-right: 0;
+		margin-left: -5px;
+		background-color: #7dbd22;
+		color: #fff;
+	}
+}
+
+/* slider navigation */
+.showcase-slider {
+	.owl-controls {
+		position: absolute;
+		top: -30px;
+		right: 0;
+		float: none;
+	}
+
+	.owl-buttons {
+		.owl-prev,
+		.owl-next {
+			float: left;
+			background-color: #d0d0d0;
+			color: #fff;
+			font-size: 12px;
+			padding: 3px 5px;
+			margin-right: 4px;
+
+			&:hover {
+				background-color: #7dbd22;
+			}
+		}
+	}
+}
+
+/* twitter feed */
+.tweet {
+	position: relative;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #eee;
+	padding: 0 0 6px 30px;
+	color: #484747;
+
+	&::before {
+		content: "\e77c";
+		font-family: "entypo";
+		font-size: 18px;
+		color: #d0d0d0;
+		position: absolute;
+		top: 5px;
+		left: 0;
+	}
+
+	p {
+		color: #484747;
+	}
+
+	span {
+		font-size: 14px;
+		color: #a3a2a2;
+	}
+}
+
+/* Home Classic 02  */
+.portfolio-items-slider {
+	.owl-controls {
+		position: absolute;
+		top: -30px;
+		right: 0;
+		float: none;
+	}
+
+	.owl-buttons {
+		.owl-prev,
+		.owl-next {
+			float: left;
+			background-color: #d0d0d0;
+			color: #fff;
+			font-size: 12px;
+			padding: 3px 5px;
+			margin-right: 4px;
+
+			&:hover {
+				background-color: #7dbd22;
+			}
+		}
+	}
+}
+
+/* Home Classic 03  */
+.iconbox-small {
+	margin: 25px 0 25px 0;
+
+	i {
+		color: #7dbd22;
+		margin-right: 10px;
+		font-size: 16px;
+	}
+}
+
+/* Home Classic 04  */
+.team-items-slider {
+	.team-profile {
+		margin: 0 5px;
+	}
+
+	.owl-controls {
+		position: absolute;
+		top: -30px;
+		right: 0;
+		float: none;
+	}
+
+	.owl-buttons {
+		.owl-prev,
+		.owl-next {
+			float: left;
+			background-color: #d0d0d0;
+			color: #fff;
+			font-size: 12px;
+			padding: 3px 5px;
+			margin-right: 4px;
+
+			&:hover {
+				background-color: #7dbd22;
+			}
+		}
+	}
+}
+
+/* Home Classic 05 - 06  */
+.notseen {
+	opacity: 0;
+}
+
+.blog-widget {
+	margin-bottom: 15px;
+
+	h4 {
+		margin-bottom: 0;
+	}
+
+	.blog-widget-meta {
+		font-size: 12px;
+
+		span {
+			color: #484747;
+		}
+	}
+}
+
+/* Home Classic 07  */
+.blog-widgets-slider {
+	.blog-widget {
+		margin: 0 5px;
+	}
+
+	.owl-controls {
+		position: absolute;
+		top: -30px;
+		right: 0;
+		float: none;
+	}
+
+	.owl-buttons {
+		.owl-prev,
+		.owl-next {
+			float: left;
+			background-color: #d0d0d0;
+			color: #fff;
+			font-size: 12px;
+			padding: 3px 5px;
+			margin-right: 4px;
+
+			&:hover {
+				background-color: #7dbd22;
+			}
+		}
+	}
+}
+
+.list-chevron.text {
+	color: #a3a2a2;
+}

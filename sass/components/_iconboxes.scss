@@ -1,0 +1,475 @@
+/* -----------------------------------------------------------------------------
+// 16. ICONBOXES
+// ----------------------------------------------------------------------------- */
+
+/* boxed style */
+.iconbox {
+	padding: 30px 25px;
+	margin-bottom: 10px;
+	text-align: center;
+	background-color: #f7f7f7;
+
+	&:hover .iconbox-icon {
+		background-color: #7dbd22;
+		color: #fff;
+	}
+}
+
+.iconbox-icon {
+	display: inline-block;
+	padding: 20px 22px;
+	margin-bottom: 15px;
+	border-radius: 100%;
+	background-color: #fff;
+	color: #7dbd22;
+
+	-webkit-transition: background-color .3s;
+	   -moz-transition: background-color .3s;
+		-ms-transition: background-color .3s;
+		 -o-transition: background-color .3s;
+		    transition: background-color .3s;
+
+	i {
+		font-size: 24px;
+		color: inherit;
+	}
+}
+
+/* light style */
+.iconbox.light {
+	background-color: #fff;
+
+	.iconbox-icon {
+		background-color: #677999;
+		color: #fff;
+	}
+
+	&:hover .iconbox-icon {
+		padding: 18px;
+		border: 2px solid #677999;
+		background-color: #fff;
+		color: #677999;
+	}
+}
+
+/* light 2 style */
+.iconbox.light2 {
+	background-color: #fff;
+
+	.iconbox-icon {
+		background-color: #7dbd22;
+		color: #fff;
+	}
+
+	&:hover .iconbox-icon {
+		padding: 18px;
+		border: 2px solid #7dbd22;
+		background-color: #fff;
+		color: #7dbd22;
+	}
+}
+
+/* simple style */
+.iconbox-simple {
+	margin-bottom: 25px;
+	padding: 0 15px 0 15px;
+	text-align: center;
+
+	> .iconbox-simple-icon {
+		display: inline-block;
+		width: 60px;
+		height: 60px;
+		margin-bottom: 15px;
+		text-align: center;
+		background-color: #7dbd22;
+
+		i {
+			line-height: 60px;
+			color: #fff;
+			font-size: 24px;
+
+			-webkit-transition: transform 1s;
+			   -moz-transition: transform 1s;
+			    -ms-transition: transform 1s;
+			     -o-transition: transform 1s;
+			        transition: transform 1s;
+		}
+	}
+
+	&:hover > .iconbox-simple-icon i {
+		-webkit-transform: rotate(360deg);
+		   -moz-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+		     -o-transform: rotate(360deg);
+			    transform: rotate(360deg);
+	}
+}
+
+/* square style */
+.iconbox-square {
+	margin-bottom: 10px;
+
+	> .iconbox-square-icon {
+		display: inline-block;
+		width: 60px;
+		height: 60px;
+		float: left;
+		margin: 0 25px 60px 0;
+		text-align: center;
+		font-size: 24px;
+		background-color: #677999;
+		color: #fff;
+
+		-webkit-transition: -webkit-transform .5s;
+		   -moz-transition: -moz-transform .5s;
+		    -ms-transition: -ms-transform .5s;
+		     -o-transition: -o-transform .5s;
+		        transition: transform .5s;
+
+		i {
+			line-height: 60px;
+		}
+	}
+
+	&:hover > .iconbox-square-icon {
+		-webkit-transform: translateY(-20px);
+		   -moz-transform: translateY(-20px);
+		    -ms-transform: translateY(-20px);
+		     -o-transform: translateY(-20px);
+		        transform: translateY(-20px);
+	}
+}
+
+/* light color */
+.iconbox-square.light > .iconbox-square-icon {
+	background-color: #7dbd22;
+}
+
+/* with a circle icon */
+.iconbox-circle {
+	margin-bottom: 10px;
+
+	> .iconbox-circle-icon {
+		position: relative;
+		display: inline-block;
+		border-radius: 100%;
+		width: 50px;
+		height: 50px;
+		margin-right: 10px;
+		font-size: 18px;
+		text-align: center;
+		background-color: #7dbd22;
+		color: #fff;
+
+		-webkit-transform: translateZ(0);
+		   -moz-transform: translateZ(0);
+			-ms-transform: translateZ(0);
+			 -o-transform: translateZ(0);
+				transform: translateZ(0);
+
+		> i {
+			line-height: 50px;
+		}
+	}
+
+	> 	h4 {
+		display: inline-block;
+	}
+
+	> p {
+		margin: 20px 0 25px 0;
+	}
+
+	/* show border on hover */
+	&:hover .iconbox-circle-icon:before {
+	  top: -8px;
+	  right: -8px;
+	  bottom: -8px;
+	  left: -8px;
+	}
+}
+
+/* border animation effect  */
+.iconbox-circle-icon:before {
+  content: '';
+  position: absolute;
+  border: #7dbd22 solid 4px;
+  border-radius: 50px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  -webkit-transition: top .5s, right .5s, bottom .5s, left .5s;
+  -moz-transition: top .5s, right .5s, bottom .5s, left .5s;
+  -ms-transition: top .5s, right .5s, bottom .5s, left .5s;
+  -o-transition: top .5s, right .5s, bottom .5s, left .5s;
+  transition: top .5s, right .5s, bottom .5s, left .5s;
+}
+
+/* style 5 (with a rectangle) */
+.iconbox-rectangle {
+	position: relative;
+	background-color: #677999;
+	padding: 40px;
+	margin-bottom: 15px;
+	color: #fff;
+	text-align: center;
+
+	> .iconbox-rectangle-icon {
+		position: absolute;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		top: -25%;
+		display: inline-block;
+		background-color: #677999;
+		border-radius: 100%;
+		width: 90px;
+		height: 90px;
+
+		-webkit-transition: background-color .5s;
+		   -moz-transition: background-color .5s;
+		    -ms-transition: background-color .5s;
+		     -o-transition: background-color .5s;
+		        transition: background-color .5s;
+
+		i {
+			font-size: 36px;
+			line-height: 90px;
+		}
+	}
+
+	> h4,
+	> p {
+		color: inherit;
+	}	
+}
+
+.iconbox-rectangle.light,
+.iconbox-rectangle.light .iconbox-rectangle-icon {
+	background-color: #7dbd22;
+}
+
+.iconbox-rectangle.light:hover .iconbox-rectangle-icon {
+	color: #7dbd22;
+}
+
+.iconbox-rectangle:hover > .iconbox-rectangle-icon {
+	background-color: #fff;
+	color: #677999;
+}
+
+/* style 1 */
+.iconbox.style1 {
+	background-color: #f7f7f7;
+	padding: 4px 20px 4px 4px;
+
+	i {
+		display: inline-block;
+		float: left;
+		font-size: 48px;
+		background-color: #fff;
+		color: #677999;
+		padding: 40px;
+		margin-right: 20px;
+	}
+}
+
+/* style 2 */
+.iconbox.style2 {
+	padding: 4px 30px 4px 4px;
+	background: transparent;
+
+	i {
+		display: inline-block;
+		float: left;
+		font-size: 60px;
+		color: #7dbd22;
+		padding: 20px;
+		margin-right: 20px;
+	}
+
+	a {
+		display: block;
+		color: #484747;
+
+		i {
+			font-size: 14px;
+			padding: 3px 0 0 0;
+			margin-right: 5px;
+		}
+	}
+}
+
+/* style 3 */
+.iconbox.style3 {
+	background-color: transparent;
+	margin-bottom: 20px;
+	padding: 0 15px 0 15px;
+	text-align: center;
+
+	> i {
+		display: inline-block;
+		margin-bottom: 15px;
+		font-size: 36px;
+		text-align: center;
+		color: #7dbd22;
+	}
+}
+
+/* style 4 */
+.iconbox.style4 {
+	position: relative;
+	background-color: #f7f7f7;
+	padding: 40px;
+	margin-bottom: 30px;
+	color: #fff;
+	text-align: center;
+
+	> .iconbox-icon {
+		position: absolute;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		top: -25%;
+		display: inline-block;
+		border-radius: 100%;
+		width: 90px;
+		height: 90px;
+		background-color: #7dbd22;
+		color: #fff;
+
+		-webkit-transition: background-color .5s;
+		   -moz-transition: background-color .5s;
+		    -ms-transition: background-color .5s;
+		     -o-transition: background-color .5s;
+		        transition: background-color .5s;
+
+		> i {
+			font-size: 36px;
+			line-height: 55px;
+		}
+	}
+
+	h4 {
+		margin: 25px 0 20px 0;
+		color: #484747;
+	}
+
+	> p {
+		color: #a3a2a2;
+		margin-bottom: 15px;
+	}
+
+	a {
+		color: #484747;
+	}
+
+	.icon-arrow-long-right  {
+		color: #7dbd22;
+	}
+
+	&:hover .iconbox-icon {
+		background-color: #fff;
+		color: #7dbd22;
+	}
+}
+
+/* style 5 */
+.iconbox.style5 {
+	margin-bottom: 10px;
+	padding-left: 0;
+	padding: 10px 10px 0 0;
+	background-color: transparent;
+
+	> .iconbox-icon {
+		display: inline-block;
+		width: 70px;
+		height: 70px;
+		float: left;
+		padding: 0;
+		margin: 0 25px 60px 0;
+		text-align: center;
+		font-size: 24px;
+		background-color: #7dbd22;
+		color: #fff;
+
+		-webkit-transition: -webkit-transform .5s;
+		   -moz-transition: -moz-transform .5s;
+		    -ms-transition: -ms-transform .5s;
+		     -o-transition: -o-transform .5s;
+		        transition: transform .5s;
+
+		i {
+			line-height: 70px;
+		}
+	}
+
+	h4,
+	p {
+		text-align: left;
+	}
+}
+
+/* count box */
+.countbox {
+	.countbox-icon {
+		width: 150px;
+		height: 150px;
+		margin: 0 auto 15px auto;
+		border: 2px solid #d0d0d0;
+		border-radius: 100%;
+
+		-webkit-transition: border-color .5s;
+		-moz-transition: border-color .5s;
+		-ms-transition: border-color .5s;
+		-o-transition: border-color .5s;
+		transition: border-color .5s;
+	}
+
+	i {
+		background-color: #d0d0d0;
+		font-size: 24px;
+		padding: 20px;
+		border-radius: 100%;
+		line-height: 150px;
+		color: #fff;
+
+		-webkit-transition: background-color .5s;
+		-moz-transition: background-color .5s;
+		-ms-transition: background-color .5s;
+		-o-transition: background-color .5s;
+		transition: background-color .5s;
+	}
+
+	p {
+		font-size: 16px;
+	}
+
+	span {
+		color: #7dbd22;
+		font-size: 20px;
+	}
+
+	/* on hover */
+	&:hover .countbox-icon {
+		border-color: #677999;
+
+		i {
+			background-color: #677999;
+		}
+	}
+}
+
+/* style 2 */
+.countbox.style2 .timer {
+	font-size: 80px;
+	font-weight: 300;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eee;
+	color: #677999;
+	font-style: italic;
+}

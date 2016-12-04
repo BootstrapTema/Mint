@@ -1,0 +1,372 @@
+/* -----------------------------------------------------------------------------
+// 2. COMPANY INTRO
+// ----------------------------------------------------------------------------- */
+.company-intro-slider {
+	font-family: "Lato", sans-serif;
+
+	span.small-heading {
+		font-family: "Lato", sans-serif;
+		font-weight: 600;
+		font-size: 18px;
+		font-style: italic;
+		color: #808080;
+	}
+
+		span.small-heading.white {
+		color: #fff;
+	}
+
+	h2 {
+		font-family: "Lato", sans-serif;
+		font-weight: 600;
+		font-size: 40px;
+		color: #313d53;
+	}
+
+	p {
+		font-family: "Lato", sans-serif;
+		font-size: 18px;
+		color: #787878;
+	}
+}
+
+.company-intro-slider .btn,
+.header-slider .btn {
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+    font-weight: 600;
+	margin-top: 10px;
+}
+
+@media (max-width: 650px){
+	.company-intro-slider .btn,
+	.header-slider .btn {
+		font-size: 12px;
+	}
+}
+
+.company-intro-slider.bright span.small-heading,
+.company-intro-slider.bright h2,
+.company-intro-slider.bright p {
+	color: #fff;
+}
+
+/* small devices */
+@media (max-width:1200px){
+	.company-intro-slider h2 {
+		font-size: 24px;
+	}
+}
+@media (max-width:900px){
+
+	.company-intro-slider span.small-heading,
+	.company-intro-slider span.small-heading.white {
+		display: none;
+	}
+
+	.company-intro-slider h2 {
+		font-size: 18px;
+	}
+
+	.company-intro-slider p {
+		height: 50px;
+		overflow: hidden;
+	}
+
+	.company-intro-slider .btn {
+		margin-top: 20px;
+	}
+}
+
+@media (max-width:400px){
+	.company-intro-slider p {
+		display: none;
+	}
+}
+
+/* with textbox */
+.company-intro-slider {
+	.post-slider-textbox {
+		font-family: "Lato", sans-serif;
+		width: 400px;
+		padding: 15px;
+		border-bottom: 2px solid #7dbd22;
+		opacity: .7;
+		background-color: #000;
+	}
+
+	.post-slider-textbox h3 {
+		color: #fff;
+	}
+}
+
+/* big */
+.header-slider-big h1,
+.header-slider-big p {
+	font-family: "Lato", sans-serif;
+	text-align: center;
+	color: #fff;
+
+	text-shadow: 2px 2px 0 #4d5b73;
+}
+
+.header-slider-big {
+	h1 {
+		font-size: 70px;
+		font-weight: 700;
+		line-height: 70px;
+	}
+
+	p {
+		font-size: 30px;
+		line-height: 36px;
+	}
+}
+
+@media (max-width:1100px){
+	.header-slider-big h1 {
+		font-size: 40px;
+		line-height: 50px;
+	}
+
+	.header-slider-big p {
+		font-size: 24px;
+	}
+}
+
+@media (max-width:800px){
+	.header-slider-big h1 {
+		font-size: 36px;
+		line-height: 36px;
+	}
+
+	.header-slider-big p {
+		font-size: 18px;
+		line-height: 18px;
+	}
+}
+
+@media (max-width:600px){
+	.header-slider-big h1 {
+		font-size: 24px;
+		line-height: 24px;
+	}
+
+	.header-slider-big p {
+		margin-top: 20px;
+		font-size: 12px;
+		line-height: 12px;
+	}
+}
+
+.company-vission img {
+    margin: 20px 0 20px 0;
+}
+
+.box-press {
+	position: relative;
+	background-color: #fff;
+	padding: 25px 25px 10px 25px;
+	margin-bottom: 15px;
+
+	.box-press-side {
+		float: left;
+		width: 50px;
+		margin: 0 20px 30px 0;
+	}
+
+	.box-press-avatar {
+		width: 50px;
+		height: 50px;
+	}
+
+	.box-press-date {
+		width: 50px;
+		height: 50px;
+		padding-top: 5px;
+		text-align: center;
+		text-transform: uppercase;
+
+		font-size: 12px;
+		color: #fff;
+		background-color: #7dbd22;
+
+		.date-number {
+			display: inline-block;
+			font-size: 24px;
+			margin-top: -8px;
+		}
+	}
+
+	h4 {
+		margin-top: 0;
+	}
+
+	p {
+		padding-left: 12px;
+	}
+}
+
+.box-press-divider {
+	width: 100%;
+	height: 1px;
+	margin: 25px 0 15px 0;
+	background-color: #f7f7f7;
+}
+
+@media (max-width: 1000px){
+	.box-press-divider {
+		margin-top: 30px;
+	}
+}
+
+.box-press-btn {
+	margin-top: 20px;
+	text-align: center;
+}
+
+/* timeline testimonial */
+.press-timeline {
+	position: relative;
+
+	.box-press-arrow-right {
+		position: absolute;
+		top: 20px;
+		right: -10px;
+		width: 0;
+		height: 0;
+		border-color: transparent transparent transparent #fff;
+		border-style: solid;
+		border-width: 7.5px 0 7.5px 10px;
+	}
+
+	.box-press-arrow-left {
+		position: absolute;
+		top: 20px;
+		left: -10px;
+		width: 0;
+		height: 0;
+		border-color: transparent #fff transparent transparent;
+		border-style: solid;
+		border-width: 7.5px 10px 7.5px 0;
+	}
+}
+
+.press-timeline-divider {
+	position: absolute;
+	background-color: #fff;
+    top: 0;
+    bottom: 50px;
+    left: 50%;
+    margin-left: -1px;
+    width: 2px;
+}
+
+.team-profile {
+	border: 2px solid #f7f7f7;
+
+	.team-profile-img .profile-off {
+		position: absolute;
+		top: 0;
+		opacity: 1;
+
+		-webkit-transition: opacity .5s;
+		-moz-transition: opacity .5s;
+		-ms-transition: opacity .5s;
+		-o-transition: opacity .5s;
+		transition: opacity .5s;
+	}
+
+	&:hover .team-profile-img .profile-off {
+		opacity: 0;
+	}
+
+	.team-profile-social {
+		padding: 10px 10px 10px 15px;
+		font-size: 20px;
+		background-color: #f7f7f7;
+
+		-webkit-transition: background-color 1s;
+		-moz-transition: background-color 1s;
+		-ms-transition: background-color 1s;
+		-o-transition: background-color 1s;
+		transition: background-color 1s;
+
+		.profile-arrow {
+			float: right;
+			padding-top: 3px;
+			color: #a3a2a2;
+			font-size: 14px;
+			text-decoration: none;
+		}
+	}
+
+	.team-profile-social a {
+		color: #d0d0d0;
+		margin-right: 10px;
+
+		&:hover {
+			text-decoration: none;
+		}
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+
+	&:hover .team-profile-social {
+		background-color: #7dbd22;
+		color: #fff;
+
+		a {
+			color: #fff;
+		}
+	}
+}
+
+.team-profile-meta {
+	margin-top: 15px;
+	padding: 0 0 20px 15px;
+
+	.profile-name {
+		margin-bottom: 0;
+	}
+}
+
+.splash-promo {
+	padding: 100px 0;
+	background: #f7f7f7 url(../img/people.jpg) fixed;
+
+	.box-promo {
+		background-color: #313d53;
+		padding: 60px 60px;
+
+		p {
+			font-size: 30px;
+			line-height: 40px;
+			color: #fff;
+			text-align: center;
+
+			> i {
+				color: #7dbd22;
+				padding: 5px;
+			}
+		}
+
+		h4 {
+			margin-top: 25px;
+			color: #fff;
+			text-align: center;
+			font-style: italic;
+		}
+
+		.icon-quote.right:before {
+			display: inline-block;
+			-webkit-transform: rotate(180deg);
+			-moz-transform: rotate(180deg);
+			-ms-transform: rotate(180deg);
+			-o-transform: rotate(180deg);
+			transform: rotate(180deg);
+		}
+	}
+}

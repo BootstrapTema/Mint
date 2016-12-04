@@ -1,0 +1,144 @@
+/* -----------------------------------------------------------------------------
+// 1. TYPOGRAPHY
+// ----------------------------------------------------------------------------- */
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+h1 a, 
+h2 a, 
+h3 a, 
+h4 a, 
+h5 a, 
+h6 a { 
+	font-weight: inherit; 
+}
+
+h1, h2 {
+	margin: 10px 0 25px 0;
+}
+
+p, blockquote { line-height: 24px; }
+blockquote { font-style: italic; }
+
+/* main colors */
+h1, h2, h3, h4, h5, h6 { color: #484747; }
+p { color: #a3a2a2; }
+
+/* links */
+a {
+	text-decoration: none;
+	color: #7dbd22;
+
+	-webkit-transition: color .3s;
+	-moz-transition:    color .3s;
+	-ms-transition:     color .3s;
+	-o-transition:      color .3s;
+	transition:         color .3s;
+
+  	&:hover {
+	    text-decoration: underline;
+	    color: #7dbd22;
+	}
+}
+
+ul {
+	padding-left: 0;
+	list-style: none;
+}
+
+mark {
+	padding: 3px 5px;
+	color: #fff;
+	background-color: #7dbd22;
+}
+
+::selection,
+.selected-text {
+	background-color: #484747;
+	color: #fff;
+}
+
+.selected-text {
+	padding: 5px 2px 2px 2px;
+}
+
+ol,
+ul {
+	padding-left: 0;
+	list-style-position: inside;
+}
+
+.list-chevron li,
+.list-arrow li,
+.list-dotted li,
+.list-checked li {
+	position: relative; /* Create a positioning context */
+	color: #484747;
+
+	margin: 0 0 10px 0; /* Give each list item a left margin to make room for the numbers */
+	padding: 2px 8px 2px 0; /* Add some spacing around the content */
+	list-style: none; /* Disable the normal item numbering */
+}
+
+.list-chevron li:before,
+.list-arrow li:before,
+.list-checked li:before {
+	content: "\e626";
+	font-family: "entypo";
+	display: inline-block;
+	color: #fff;
+	margin-right: 8px;
+	text-align: center !important;
+	height: 15px;
+	width: 15px;
+	line-height: 16px;
+	background-color: #7dbd22;
+	border-radius: 50%;
+}
+
+.list-arrow li:before {
+	content: "\e617";
+	background-color: transparent;
+	border-radius: 0;
+	font-size: 12px;
+	color: #7dbd22;
+}
+
+.list-dotted li {
+	list-style: disc;
+	list-style-position: inside;
+	padding-left: 0;
+}
+
+.list-checked li:before {
+	content: "\e67d";
+	background-color: transparent;
+	border-radius: 0;
+	font-size: 12px;
+	color: #7dbd22;
+}
+
+ol li {
+	padding: 4px 8px 4px 0;
+	margin-bottom: 10px;
+}
+
+ol.list-roman {
+	list-style-type: lower-roman;
+}
+
+ol.list-loweralpha {
+	list-style-type: lower-alpha;
+}
+
+ol.list-upperalpha {
+	list-style-type: upper-alpha;
+}
+
+/* responsive images */
+img {
+	max-width: 100%;
+	height: auto;
+}

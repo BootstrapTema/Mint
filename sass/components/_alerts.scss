@@ -1,0 +1,99 @@
+/* -----------------------------------------------------------------------------
+// 2. ALERTS
+// ----------------------------------------------------------------------------- */
+
+.alert {
+	border: none;
+	border-radius: 0;
+	padding: 15px 25px;
+
+	> i {
+		margin: 0 10px 0 0;
+	}
+
+	i:before {
+		font-family: "entypo";
+	    font-style: normal;
+	    font-size: 18px;
+	}
+}
+
+.alert-dismissible .close {
+	right: -5px;
+	top: 3px;
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	line-height: 20px;
+	background-color: #d0d0d0;
+	color: #fff;
+	opacity: 1;
+	font-size: 16px;
+	text-shadow: none;
+
+	&:hover {
+		opacity: .9;
+	}
+}
+
+.alert-default {
+	background-color: #f7f7f7;
+	color: #969595;
+}
+
+.alert-default .icon-mail:before {
+	color: #d3d3d3;
+}
+
+.alert-success {
+	background-color: #e3ffba;
+	color: #93c326;
+}
+
+.alert-success .close {
+	background-color: #93c326;
+}
+
+.alert-warning {
+	background-color: #ffefb7;
+	color: #d5a044;
+}
+
+.alert-warning .close {
+	background-color: #d5a044;
+}
+
+.alert-danger {
+	background-color: #ffe4e4;
+	color: #d66c6c;
+}
+
+.alert-danger .icon-attention:before {
+	color: #d66c6c;
+}
+
+.alert-danger .close {
+	background-color: #d66c6c;
+}
+
+.alert-help {
+	background-color: #d9f6ff;
+	color: #6193b0;
+}
+
+.alert-help  .icon-lifebouy:before {
+	color: #6193b0;
+}
+
+.alert-help .close {
+	background-color: #6cafd6;
+}
+
+.alert-info {
+	background-color: #e6e0ff;
+	color: #8673d0;
+}
+
+.alert-info .close {
+	background-color: #8673d0;
+}

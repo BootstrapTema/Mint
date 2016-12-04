@@ -1,0 +1,38 @@
+/* -----------------------------------------------------------------------------
+// 17. FAQ
+// ----------------------------------------------------------------------------- */
+.faq {
+	.faq-sidebar {
+		margin-bottom: 30px;
+	}
+
+	.nav-tabs.style4 {
+		width: 100%;
+
+		> li.active > a,
+		> li.active > a:focus,
+		> li.active > a:hover {
+			border-right: 1px solid #eee;
+		}
+	}
+
+	.faq .tab-content.style4 .tab-pane {
+		border: none;
+		padding-top: 0;
+
+		h3 {
+			margin-top: 0;
+			margin-bottom: 50px;
+			font-size: 36px;
+			color: #7dbd22;
+		}
+	}
+
+	.faq-item {
+		margin-bottom: 50px;
+	}
+}
+
+.faq-2 .list-arrow li a {
+	color: #a3a2a2;
+}

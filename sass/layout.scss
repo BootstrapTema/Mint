@@ -1,0 +1,17 @@
+@charset 'UTF-8';
+
+/*
+// Table of content
+// -----------------------------------------------------------------------------
+// - 1. Header
+// - 2. Footer
+// - 3. Breadcrumb
+// - 4. Navbar
+*/
+
+// Layout-related sections
+@import
+  'layout/header',
+  'layout/footer',
+  'layout/breadcrumb',
+  'layout/navbar';

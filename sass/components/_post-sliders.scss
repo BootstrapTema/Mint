@@ -1,0 +1,86 @@
+/* -----------------------------------------------------------------------------
+// 18. POST SLIDERS
+// ----------------------------------------------------------------------------- */
+
+/* default style */
+.post-slider .owl-controls {
+	position: absolute;
+	right: 20px;
+	bottom: 25px;
+
+	.owl-page span {
+	    width: 50px;
+	    height: 6px;
+		margin: 0 0 0 4px;
+	    border-radius: 0;
+	    background-color: #fff;
+	    -webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		-ms-border-radius: 0;
+		-o-border-radius: 0;
+	    border-radius: 0;
+	}
+}
+
+/* with title */
+.post-slider.title {
+	img {
+		margin-bottom: 15px;
+	}
+
+	.post-slider-data {
+		position: absolute;
+		bottom: 70px;
+		right: 20px;
+
+		h3,
+		h4 {
+			display: inline-block;
+		    background-color: #626262;
+		    color: #fff;
+		    padding: 15px 20px;
+		    margin-bottom: 0;
+		}
+	}
+}
+
+/* with textbox */
+.post-slider.textbox {
+	.post-slider-textbox {
+		position: absolute;
+		width: 400px;
+		left: 20px;
+		bottom: 20px;
+		padding: 15px;
+		border-bottom: 2px solid #7dbd22;
+		background-color: #626262;
+
+		h3 {
+			color: #d0d0d0;
+		}
+	}
+}
+
+/* with overlay text */
+.post-slider.overlay {
+	margin-bottom: 15px;
+
+	.post-slider-overlay {
+		position: absolute;
+		width: 350px;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		padding: 30px;
+		border-right: 2px solid #7dbd22;
+		background-color: #626262;
+
+		h3 {
+			color: #fff;
+		}
+
+		p {
+			color: #d0d0d0;
+		}
+	}
+} 

@@ -1,0 +1,187 @@
+/* -----------------------------------------------------------------------------
+// 15. PROGRESS BARS
+// ----------------------------------------------------------------------------- */
+.progress.style1 {
+	height: 60px;
+	margin-bottom: 10px;
+	background-color: transparent;
+	border-radius: 0;
+	border: none;
+
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-ms-box-shadow: none;
+	-o-box-shadow: none;
+	box-shadow: none;
+
+    .progress-label h5 {
+        margin: 0;
+        padding: 0 0 5px 0;
+        text-align: left;
+        font-style: italic;
+    }
+
+    .progress-bar {
+        position: relative;
+        display: block;
+        margin-bottom: 15px;
+        width: 100%;
+        height: 40px;
+
+        background: #edecec;
+        -webkit-border-radius: 0;
+        -moz-border-radius:    0;
+        -ms-border-radius:     0;
+        -o-border-radius:      0;
+        border-radius:         0;
+
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        -ms-box-shadow: none;
+        -o-box-shadow: none;
+        box-shadow: none;
+    }
+
+    /* the active area of the skills bar */
+    .progress-active {
+        height: 40px;
+        background-color: #7dbd22;
+        width: 0;
+
+
+        -webkit-border-radius: 0;
+        -moz-border-radius:    0;
+        -ms-border-radius:     0;
+        -o-border-radius:      0;
+        border-radius:         0;
+    }
+
+    .progress-data {
+        position: absolute;
+        left: 15px;
+        top: 0;
+        height: 40px;
+        font-size: 14px;
+        line-height: 40px;
+        color: #fff; /* fallback color */
+
+        i {
+            font-size: 16px;
+            margin-right: 15px;
+        }
+    }
+
+    /* the small number */
+    .progress-percent {
+        position: absolute;
+        right: 15px;
+        top: 0;
+        height: 40px;
+
+        font-size: 11px;
+        line-height: 40px;
+        color: #d9d9d9; /* fallback color */
+        color: rgba(0, 0, 0, 0.4);
+    }
+}
+
+/* style 2 */
+.progress.style2,
+.progress.style3 {
+	height: 60px;
+	margin-bottom: 10px;
+	background-color: transparent;
+	border-radius: 4px;
+	border: none;
+
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-ms-box-shadow: none;
+	-o-box-shadow: none;
+	box-shadow: none;
+
+    .progress-label h5 {
+        margin: 0;
+        padding: 0 0 5px 0;
+
+        text-align: left;
+        font-style: italic;
+    }
+
+    .progress-bar {
+        position: relative;
+        display: block;
+        margin-bottom: 15px;
+        width: 100%;
+        height: 25px;
+
+        background: #edecec;
+        -webkit-border-radius: 20px;
+        -moz-border-radius:    20px;
+        -ms-border-radius:     20px;
+        -o-border-radius:      20px;
+        border-radius:         20px;
+
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        -ms-box-shadow: none;
+        -o-box-shadow: none;
+        box-shadow: none;
+    }
+
+    /* the active area of the skills bar */
+    .progress-active {
+        height: 25px;
+        background-color: #677999;
+        width: 0;
+
+
+        -webkit-border-radius: 20px;
+        -moz-border-radius:    20px;
+        -ms-border-radius:     20px;
+        -o-border-radius:      20px;
+        border-radius:         20px;
+    }
+
+    /* the small number */
+    .progress-percent {
+        position: absolute;
+        right: 15px;
+        top: 0;
+        height: 35px;
+
+        font-size: 11px;
+        line-height: 25px;
+        color: #d9d9d9; /* fallback color */
+        color: rgba(0, 0, 0, 0.4);
+    }
+}
+
+/* style 3 - different colors */
+.progress.style3.lightblue .progress-active {
+	background-color: #01b7f2;
+}
+
+.progress.style3.green .progress-active {
+	background-color: #0ab596;
+}
+
+.progress.style3.orange .progress-active {
+	background-color: #ff6600;
+}
+
+.progress.style3.purple .progress-active {
+	background-color: #9f60b5;
+}
+
+.progress.style3.yellow .progress-active {
+	background-color: #ffc000;
+}
+
+.progress.style3.red .progress-active {
+	background-color: #d20d0d;
+}
+
+.progress.style3.pink .progress-active {
+	background-color: #de2e8c;
+}

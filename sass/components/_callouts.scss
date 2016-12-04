@@ -1,0 +1,40 @@
+/* -----------------------------------------------------------------------------
+// 3. CALLOUTS
+// ----------------------------------------------------------------------------- */
+.callout {
+	border-left: 2px solid #f7f7f7;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+
+.callout-default {
+	border-color: #d0d0d0;
+	background-color: #f7f7f7;
+}
+
+.callout-warning {
+	border-color: #d5a044;
+	background-color: #ffefb7;
+
+	> p {
+		color: #d5a044;
+	}
+}
+
+.callout-success {
+	border-color: #93c326;
+	background-color: #e3ffba;
+
+	> p {
+		color: #93c326;
+	}
+}
+
+.callout-danger {
+	border-color: #d66c6c;
+	background-color: #ffe4e4;
+
+	> p {
+		color: #d66c6c;
+	}
+}

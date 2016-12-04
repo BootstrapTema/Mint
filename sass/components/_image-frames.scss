@@ -1,0 +1,70 @@
+/* -----------------------------------------------------------------------------
+// 17. IMAGE FRAMES
+// ----------------------------------------------------------------------------- */
+
+/* Big Slider */
+.bx-wrapper {
+	margin-bottom: 10px;
+	overflow: hidden;
+
+	.bx-viewport {
+		border: none;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		-ms-box-shadow: none;
+		-o-box-shadow: none;
+		box-shadow: none;
+	}
+}
+
+.bx-pager a {
+	display: inline-block;
+	width: 19%;
+	margin-left: .8%;
+
+	&:first-child {
+		margin-left: 0;
+	}
+}
+
+/* image frames */
+.img-frame {
+	&.border {
+		padding: 8px;
+		border: 1px solid #eee;
+	}
+
+	&.rounded {
+		border-radius: 5px;
+		overflow: hidden;
+	}
+}
+
+/* small gallery */
+.gallery-slider .gallery-slider-item {
+	margin: 0 5px;
+}
+
+/* slider navigation */
+.gallery-slider {
+	.owl-controls {
+		position: absolute;
+		top: -30px;
+		right: 0;
+		float: none;
+	}
+
+	.owl-buttons .owl-prev,
+	.owl-buttons .owl-next {
+		float: left;
+		background-color: #d0d0d0;
+		color: #fff;
+		font-size: 12px;
+		padding: 3px 5px;
+		margin-right: 4px;
+
+		&:hover {
+			background-color: #7dbd22;
+		}
+	}
+}

@@ -1,0 +1,194 @@
+/* -----------------------------------------------------------------------------
+// 7. FORMS
+// ----------------------------------------------------------------------------- */
+.form-control {
+	display: block;
+	height: auto;
+	width: 100%;
+	border: 1px solid #d9d9d9;
+	border-radius: 0;
+    padding: 15px 25px 13px 25px;
+    margin-bottom: 15px;
+
+    -webkit-box-shadow: none;
+	-moz-box-shadow: 	none;
+	-ms-box-shadow: 	none;
+	-o-box-shadow: 		none;
+	box-shadow: 		none;
+
+	color: #808080;
+	font-size: 14px;
+
+	-webkit-transition: opacity .5s;
+	-moz-transition: 	opacity .5s;
+	-ms-transition: 	opacity .5s;
+	-o-transition: 		opacity .5s;
+	transition: 		opacity .5s;
+}
+
+textarea {
+	height: 110px;
+	resize: none;
+}
+
+	.form-control:focus {
+	  border-color: #7dbd22;
+	  outline: 0;
+	  -webkit-box-shadow: none;
+	  	 -moz-box-shadow: none;
+	  	  -ms-box-shadow: none;
+	   		  box-shadow: none;
+	}
+
+input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder {
+	color: #a3a2a2;
+    -webkit-transition: opacity .3s;
+	-moz-transition: 	opacity .3s;
+	-ms-transition: 	opacity .3s;
+	-o-transition: 		opacity .3s;
+	transition: 		opacity .3s;
+}
+
+input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder {
+    opacity: 0;
+}
+
+.has-success .form-control,
+.has-warning .form-control,
+.has-error .form-control,
+.has-success .form-control:focus,
+.has-warning .form-control:focus,
+.has-error .form-control:focus {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: 	none;
+	-ms-box-shadow: 	none;
+	-o-box-shadow: 		none;
+	box-shadow: 		none;
+}
+
+/* success input */
+.has-success .form-control {
+	border-color: #7dbd22;
+
+	&:focus {
+		border-color: #7dbd22;
+	}
+
+	&::-webkit-input-placeholder {
+		color: #93c326;
+	}
+}
+
+/* warning input */
+.has-warning .form-control {
+	border-color: #d5a044;
+
+	&:focus {
+		border-color: #d5a044;
+	}
+
+	&::-webkit-input-placeholder {
+		color: #d5a044;
+	}
+}
+
+/* error input */
+.has-error .form-control {
+	border-color: #d66c6c;
+
+	&::-webkit-input-placeholder {
+		color: #d66c6c;
+	}
+
+	&:focus {
+		border-color: #d66c6c;
+	}
+}
+
+/* active input */
+.has-active .form-control {
+	border-color: #6cafd6;
+
+	&::-webkit-input-placeholder {
+		font-style: italic;
+	}
+
+	&:focus {
+		border-color: #6cafd6;
+	}
+}
+
+/* diabled input */
+.input-disabled  {
+    background-color: #f2f2f2;
+
+    &:focus {
+	    text-wrap: none;
+	}
+}
+
+.form-captcha {
+	p {
+		color: #484747;
+	}
+
+	span {
+		text-align: center;
+		color: #a3a2a2;
+		float: left;
+		width: 25%;
+		display: inline-block;
+		padding: 15px;
+		background-color: #f7f7f7;
+	}
+
+	input {
+		float: left;
+	    width: 74%;
+	    margin-left: 1%;
+	    display: inline-block;
+	}
+}
+
+.form-check {
+	color: #a3a2a2;
+
+	input {
+		margin-right: 10px;
+	}
+
+	p {
+		display: inline-block;
+	}
+}
+
+.form-btn {
+	margin-top: 5px;
+}
+
+/* style 2 */
+form.style2 .form-group {
+	label {
+		padding-top: 15px;
+		width: 15%;
+		float: left;
+		font-weight: normal;
+	}
+
+	input,
+	select {
+		width: 85%;
+		float: left;
+	}
+
+	select {
+		height: 50px;
+	}
+}
+
+/* style 3 */
+form.style3 .form-btn button {
+	width: 100%;
+}

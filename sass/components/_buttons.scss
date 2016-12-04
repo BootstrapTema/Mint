@@ -1,0 +1,121 @@
+/* -----------------------------------------------------------------------------
+// 1. BUTTONS
+// ----------------------------------------------------------------------------- */
+.buttons .btn {
+	margin-bottom: 8px;
+}
+
+.btn {
+	padding: 8px 16px;
+	border: 0;
+	border-radius: 0;
+	color: #fff;
+
+	-webkit-transition: background-color .3s;
+	   -moz-transition: background-color .3s;
+		-ms-transition: background-color .3s;
+		 -o-transition: background-color .3s;
+		    transition: background-color .3s;
+	
+	&:hover {
+		color: #fff;
+		opacity: .9;
+	}
+}
+
+.btn-default {
+	background-color: #ececec;
+	color: #969595;
+}
+
+.btn-primary {
+	background-color: #677999;
+}
+
+.btn-primary:hover {
+	background-color: #6e80a0;
+}
+
+.btn-grey {
+	background-color: #acacac;
+}
+
+.btn-black {
+	background-color: #393939;
+}
+
+.btn-blue {
+	background-color: #01b7f2;
+}
+
+.btn-lightblue {
+	background-color: #6dace6;
+}
+
+.btn-orange {
+	background-color: #ff6600;
+}
+
+.btn-purple {
+	background-color: #9f60b5;
+}
+
+.btn-pink {
+	background-color: #ff3e3e;
+}
+
+.btn-success {
+	background-color: #7dbd22;
+}
+
+.btn-success:hover {
+	background-color: #86c52b;
+}
+
+.btn-info {
+	background-color: #0ab596;
+}
+
+.btn-lightpink {
+	background-color: #de2e8c;
+}
+
+.btn-warning {
+	background-color: #ffc000;
+}
+
+.btn-danger {
+	background-color: #d20d0d;
+}
+
+.btn-brown {
+	background-color: #b07926;
+}
+
+.btn-lg {
+	padding: 0 32px;
+	height: 43px;
+	font-size: 1.1667em;
+	line-height: 43px;
+}
+
+.btn-md {
+	padding: 0 32px;
+	height: 34px;
+	line-height: 34px;
+	font-size: 1em;
+}
+
+.btn-sm {
+	height: 28px;
+	padding: 0 24px;
+	line-height: 28px;
+	font-size: 0.9167em;
+}
+
+.btn-xs {
+	height: 24px;
+	padding: 0 20px;
+	font-size: 0.8333em;
+	line-height: 24px;
+}

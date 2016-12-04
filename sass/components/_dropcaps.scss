@@ -1,0 +1,21 @@
+/* -----------------------------------------------------------------------------
+// 13. DROPCAPS
+// ----------------------------------------------------------------------------- */
+.dropcap:first-letter {
+	float: left;
+	margin-right: 10px;
+}
+
+.dropcap-default:first-letter {
+	padding: 10px 0 10px 0;
+	font-size: 45px;
+	color: #677999;
+}
+
+.dropcap-circle:first-letter {
+	padding: 10px 13px;
+	border-radius: 25px;
+	font-size: 25px;
+	background-color: #7dbd22;
+	color: #fff;
+}
